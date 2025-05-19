@@ -3,4 +3,4 @@ data from Farahmand, Saman, Fernandez, Aileen I, Ahmed, Fahad Shabbir, Rimm, Dav
 
 Confirm her2 gene expression with her2 tumor data/expecting results of tranzmap treatment
 
-Overfitting had been sovled after I decreasd the learning rate into 0.01->0.0001 and changed the optimizer to SGD->Adam
+Overfitting has been sovled after I decreasd the learning rate into 0.01->0.0001 and changed the optimizer to SGD->Adam
