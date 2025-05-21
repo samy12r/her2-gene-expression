@@ -5,5 +5,5 @@ Confirm her2 gene expression with her2 tumor data/expecting results of tranzmap 
 
 Overfitting has been sovled after I decreasd the learning rate into 0.01->0.0001 and changed the optimizer to SGD->Adam
 
-I made a mistake in  her2학습.ipynb. The patch from each patients were randomly inserted without distinguishing between the train and val files, and it seems that the oscillation was severe because of this.
+I made a mistake in  her2학습.ipynb. The patch from each patients were randomly inserted into train and val files without first deciding where to put the patient in training or val folder, and it seems that the oscillation was severe because of this.
 
