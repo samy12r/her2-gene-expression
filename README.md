@@ -7,3 +7,4 @@ Overfitting has been sovled after I decreasd the learning rate into 0.01->0.0001
 
 I made a mistake in  her2학습.ipynb. The patch from each patients were randomly inserted into train and val files without first deciding where to put the patient in training or val folder, and it seems that the oscillation was severe because of this.
 
+For trantuzmap data, I first used pretrained rsnet 18, but the overfitting kept occured, and I thought the model was too deep for my dataset, so I changed into two layer cnn.
