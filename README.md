@@ -9,3 +9,4 @@ I made a mistake in  her2학습.ipynb. The patch from each patients were randoml
 # Distinguishing between positive and negative responses to Trastuzumab
 #### Comparison of performance between training on patches from whole slide images and patches from tumor regions only
 For trantuzmap data, I first used pretrained rsnet 18, but the overfitting kept occured, and I thought the model was too deep for my dataset, so I changed into two layer cnn.
+ 패치 단위 하습 외에도   Sliding Window 기반 학습/예측 같은 걸로 학습하면 정확도 더 높일 수 있다고 하셔서 자세히 찾아보기
